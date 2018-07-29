@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'codebreaker', git: 'https://github.com/Vladimir2706/codebreaker_web.git', branch: 'feature/web_app'
+# gem 'codebreaker', git: 'https://github.com/Vladimir2706/gem_for_codebreaker_RACK', branch: 'feature/change_gem'
+gem 'codebracker'
 gem 'rack'
 
 group :develop do

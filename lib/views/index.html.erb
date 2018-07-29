@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+  <h1 class="text-center">"Hello from index"</h1>
+  </div>
+
+  <form class="form-horizontal" role="form">
+    <div class="form-group">
+      <label for="input" class="col-sm-2 control-label">Username</label>
+      <div class="col-sm-10">
+        <input type="username" class="form-control" id="focusedInput" placeholder="Username">
+      </div>
+    </div>
+  </form>
+  <div class="row">
+    <div class="col-md-2 col-md-offset-4">
+      <form method="post" action='/game'>
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-primary">Play game</button>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-2">
+      <form method="post" action='/score'>
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-primary">Show score</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+
